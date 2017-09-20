@@ -11,7 +11,8 @@ categories: Node.js
 
 ## **Node.js Template Engine 추가(ejs)**
 
-![express](/images/express.jpg)
+![express](/images/node.png)
+
 
 정적인 HTML에서의 데이터 처리를 위해서 템플릿 엔진(ejs)를 추가한다.
 ejs를 설치해 .ejs 템플릿 페이지를 연결하고 path를 이용해 해당 경로를 찾아 갈 수 있도록 설정한다.

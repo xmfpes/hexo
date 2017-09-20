@@ -12,7 +12,7 @@ categories: Node.js
 
 ## **Node.js Mongoose Virtual attributes 추가하기**
 
-![express](/images/express.jpg)
+![express](/images/node.png)
 
 Mongoose를 이용해 정의한 모델에 Virtual attribute를 추가한다.
 virtual attributes를 이용해 collection에 정의 되지 않은 filed 이지만 정의된 field 처럼 사용할 수 있다.

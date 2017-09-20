@@ -1,6 +1,6 @@
 ---
 title: Express 프레임워크를 이용한 웹 페이지 제작 - 02(Mongoose ODM 연동하기)
-date: 2017-09-19 19:30:00
+date: 2017-09-19 18:01:00
 tags: 
 - Node.js
 - JavaScript
@@ -12,15 +12,16 @@ categories: Node.js
 
 ## **Node.js Mongoose ODM 사용**
 
-![express](/images/express.jpg)
+![express](/images/node.png)
 
 Mongoose는 MongoDB 기반 ODM(Object Data Mapping) Node.js 라이브러리
 
 Mongoose는 MongoDB 객체 모델링 도구, ODM은 데이터베이스와 객체지향 프로그래밍 언어 사이 호환되지 않는 데이터를 변환하는 프로그래밍 기법, 즉 MongoDB 에 있는 데이터를 Application에서 JavaScript 객체로 사용 할 수 있도록 해줌
 
-## STEP 1. Mongoose 패키지 다운로드
+## STEP 1. Mongoose 패키지 / autoIncrement를 위한 패키지 다운로드
 ```bash
     $ npm install --save mongodb mongoose
+    $ npm install --save mongoose-auto-increment
 ```
 ## STEP 2. app.js에 Db Connection 코드 작성
 

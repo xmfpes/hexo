@@ -11,7 +11,7 @@ categories: Node.js
 
 ## **Node.js Template Engine 추가(ejs)**
 
-![express](/images/express.jpg)
+![express](/images/node.png)
 
 템플릿 엔진을 추가하고 나서 header나 footer등 전체 페이지에서 공통적으로
 들어가는 부분을 정리한다.
