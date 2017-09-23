@@ -11,7 +11,7 @@ categories: Node.js
 
 ## **Node.js Express 프레임워크 사용**
 
-![express](/images/express.jpg)
+![express](/images/node.png)
 
 Express 프레임워크를 이용해서 간단한 웹 페이지를 제작한다.
 
