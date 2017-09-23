@@ -8,11 +8,10 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
+thumbnail: /images/node.png
 ---
 
 ## **Node.js Mongoose를 이용해 특정 데이터를 가져와 Detail 페이지 제작하기(findOne)**
-
-![express](/images/node.png)
 
 Mongoose를 이용해 MongoDB에서 특정 데이터(id를 이용)를 가져와서 상세 페이지를 제작한다.
 

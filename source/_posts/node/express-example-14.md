@@ -10,10 +10,9 @@ tags:
 - Csrf
 - Csurf
 categories: Node.js
+thumbnail: /images/node.png
 ---
 ## **CSRF 방어 적용하기**
-
-![express](/images/node.png)
 
 #### CSRF(Cross-Site Request forgery) 공격
 

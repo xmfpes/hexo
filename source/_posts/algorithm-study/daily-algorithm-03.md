@@ -1,13 +1,12 @@
 ---
-title: daily-algorithim-03
+title: 알고리즘 스터디 - 03(Recursion - 재귀)
 date: 2017-09-23 13:36:19
 tags: Algorithm
 categories: 알고리즘 스터디
+thumbnail: /images/algorithm.png
 ---
 
 ## 매일 하려고 하는 알고리즘 스터디 - Recursion
-
-![algorithm](/images/algorithm.png)
 
 ### Day 3
 ## Recursion(재귀) 함수 예제 - 3
@@ -115,3 +114,5 @@ public static int binarySearch(String items[], int begin, int end, String target
 	}
 }
 ```
+
+오늘 학습에 사용된 코드는 깃허브 [알고리즘 레파지토리](https://github.com/xmfpes/daily-algorithm/commit/ddc6b63fd27db4d2114e190b8748d7036aedc54f)에 커밋 로그로 남겨두었습니다.

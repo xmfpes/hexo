@@ -10,11 +10,10 @@ tags:
 - FileUpload
 - Multer
 categories: Node.js
+thumbnail: /images/node.png
 ---
 
 ## **파일 업로드 기능 추가하기**
-
-![express](/images/node.png)
 
 파일 업로드 적용을 위한 단계
 

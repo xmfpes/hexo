@@ -7,11 +7,10 @@ tags:
 - thymeleaf
 categories:
 - Spring
+thumbnail: /images/spring.png
 ---
 
 ## **Spring Boot 프로젝트 초기 설정하기**
-
-![spring boot](/images/spring.png)
 
 MySQL /
 Lombok /

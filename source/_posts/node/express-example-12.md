@@ -9,11 +9,10 @@ tags:
 - Mongoose
 - Ajax
 categories: Node.js
+thumbnail: /images/node.png
 ---
 
 ## **댓글 삭제 기능 추가하기**
-
-![express](/images/node.png)
 
 ## STEP 1. 댓글 삭제 버튼 추가하기
 

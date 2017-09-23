@@ -8,11 +8,10 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
+thumbnail: /images/node.png
 ---
 
 ## **Node.js Mongoose를 이용해 글 삭제하기(remove)**
-
-![express](/images/node.png)
 
 ## STEP 1. API 작성
 /routes/admin.js 수정하기

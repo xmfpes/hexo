@@ -9,11 +9,8 @@ tags:
 - Amazon S3
 categories:
 - Spring
+thumbnail: /images/spring.png
 ---
-
-## **Spring Boot와 Summernote 에디터 연동을 통한 S3 이미지 업로드 기능**
-
-![spring boot](/images/spring.png)
 
 ## **Spring Boot Summernote 에디터 연동 및 S3를 이용한 이미지 업로드**
 

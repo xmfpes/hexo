@@ -8,11 +8,10 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
+thumbnail: /images/node.png
 ---
 
 ## **회원가입 기능 추가하기**
-
-![express](/images/node.png)
 
 회원가입 기능을 추가한다.
 

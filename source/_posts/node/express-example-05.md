@@ -8,11 +8,10 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
+thumbnail: /images/node.png
 ---
 
 ## **Node.js Mongoose를 이용해 MongoDB에 Data Insert**
-
-![express](/images/node.png)
 
 Mongoose를 이용해 MongoDB에 값을 넣는 작업을 실행한다.
 

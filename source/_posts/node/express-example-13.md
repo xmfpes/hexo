@@ -9,11 +9,10 @@ tags:
 - Mongoose
 - Validation
 categories: Node.js
+thumbnail: /images/node.png
 ---
 
 ## **Validation 추가하기**
-
-![express](/images/node.png)
 
 Validation을 추가해서 데이터를 넣을 때 체크하도록 기능을 추가한다.
 

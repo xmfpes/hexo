@@ -9,11 +9,10 @@ tags:
 - Mongoose
 - Ajax
 categories: Node.js
+thumbnail: /images/node.png
 ---
 
 ## **댓글 기능 추가하기**
-
-![express](/images/node.png)
 
 ## STEP 1. CommentsModel 작성하기
 ```javascript

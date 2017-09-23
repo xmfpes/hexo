@@ -8,11 +8,10 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
+thumbnail: /images/node.png
 ---
 
 ## **Node.js Mongoose ODM 사용**
-
-![express](/images/node.png)
 
 Mongoose는 MongoDB 기반 ODM(Object Data Mapping) Node.js 라이브러리
 
