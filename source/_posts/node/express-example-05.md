@@ -8,10 +8,11 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **Node.js Mongoose를 이용해 MongoDB에 Data Insert**
+
+![node](/images/node.png)
 
 Mongoose를 이용해 MongoDB에 값을 넣는 작업을 실행한다.
 
@@ -110,3 +111,5 @@ form에서 값을 입력하고 Robo Mongo나 콘솔에서 데이터가 정상적
 DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
 ```
 위와 같은 Warning이 출력되는데, 다음장에서 체크한다.
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/7cd5f650eb7e66083b6f37a403fce946c2a41fbb)에 커밋 로그로 남겨두었습니다.

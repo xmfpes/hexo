@@ -8,10 +8,11 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **Node.js Mongoose Virtual attributes 추가하기**
+
+![node](/images/node.png)
 
 Mongoose를 이용해 정의한 모델에 Virtual attribute를 추가한다.
 virtual attributes를 이용해 collection에 정의 되지 않은 filed 이지만 정의된 field 처럼 사용할 수 있다.
@@ -46,3 +47,5 @@ ProductsSchema.virtual('getDate').get(function(){
 </td>
 
 ```
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/b37b1bc25e83523e6563c8e02a8731c870f08e7a)에 커밋 로그로 남겨두었습니다.

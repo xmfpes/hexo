@@ -8,10 +8,11 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **회원가입 기능 추가하기**
+
+![node](/images/node.png)
 
 회원가입 기능을 추가한다.
 
@@ -50,7 +51,7 @@ module.exports = mongoose.model('user' , UserSchema);
 
 가입 폼에 해당하는 라우팅과, 로그인을 위한 라우팅 추가
 
-routes/account.js
+routes/accounts.js
 
 ```javascript
 var express = require('express');
@@ -84,7 +85,7 @@ app.use('/accounts', accounts);
 ## STEP 3. 회원가입을 위한 View 코드 작성
 
 회원가입 폼 생성
-/views/account/join.ejs
+/views/accounts/join.ejs
 
 ```html
 <% include ../includes/header.ejs %>
@@ -245,3 +246,5 @@ router.post('/join', function(req, res){
     });
 });
 ```
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/e89e16416f42450accf201bb228e59c1db0edc9d)에 커밋 로그로 남겨두었습니다.

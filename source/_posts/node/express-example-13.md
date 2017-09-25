@@ -9,10 +9,11 @@ tags:
 - Mongoose
 - Validation
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **Validation 추가하기**
+
+![node](/images/node.png)
 
 Validation을 추가해서 데이터를 넣을 때 체크하도록 기능을 추가한다.
 
@@ -66,3 +67,5 @@ router.post('/products/write', function(req,res){
 아래와 같은 validationError를 발생시킨다.
 
 ![validationError](/images/validatorError.png)
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/5f0d426cb0f45974c75d3494530828fd370c6d6d)에 커밋 로그로 남겨두었습니다.

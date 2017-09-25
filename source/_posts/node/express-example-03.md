@@ -7,10 +7,11 @@ tags:
 - JQuery
 - Express
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **Node.js Template Engine 추가(ejs)**
+
+![node](/images/node.png)
 
 정적인 HTML에서의 데이터 처리를 위해서 템플릿 엔진(ejs)를 추가한다.
 ejs를 설치해 .ejs 템플릿 페이지를 연결하고 path를 이용해 해당 경로를 찾아 갈 수 있도록 설정한다.
@@ -62,3 +63,5 @@ router.get('/products', function(req, res){
 셋팅 후, 아래의 페이지에서 products hello, ejs 라는 메세지가 정상적으로 출력되는지 체크한다.
 
 [localhost:3000/admin/products](localhost:3000/admin/products)
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/09ab5cf23114ecd028460e6a6165f30ee62121f0)에 커밋 로그로 남겨두었습니다.

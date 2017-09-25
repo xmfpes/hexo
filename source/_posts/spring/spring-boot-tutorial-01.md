@@ -12,6 +12,8 @@ thumbnail: /images/spring.png
 
 ## **Spring Boot 프로젝트 초기 설정하기**
 
+![spring](/images/spring.png)
+
 MySQL /
 Lombok /
 thymeleaf /

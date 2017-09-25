@@ -10,9 +10,10 @@ tags:
 - Csrf
 - Csurf
 categories: Node.js
-thumbnail: /images/node.png
 ---
 ## **CSRF 방어 적용하기**
+
+![node](/images/node.png)
 
 #### CSRF(Cross-Site Request forgery) 공격
 
@@ -108,3 +109,5 @@ router.get('/products/edit/:id' , csrfProtection, function(req, res){
 
 router.post('/products/edit/:id', csrfProtection, function(req, res){
 ```
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/cbd586df31015868178733f47da07a2ec87ae979)에 커밋 로그로 남겨두었습니다.

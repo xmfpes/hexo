@@ -12,7 +12,7 @@ thumbnail: /images/hexo.png
 
 ## **Node.js Hexo를 이용해 블로그 제작하기**
 
-![Hexo]()
+![hexo](/images/hexo.png)
 
 Hexo와 Github를 이용해 개인 블로그를 생성하고 관리해보자.
 Hexo는 Node.js 기반으로 되어 있다.

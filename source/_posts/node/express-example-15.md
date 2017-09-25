@@ -10,10 +10,11 @@ tags:
 - FileUpload
 - Multer
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **파일 업로드 기능 추가하기**
+
+![node](/images/node.png)
 
 파일 업로드 적용을 위한 단계
 
@@ -245,3 +246,5 @@ fs.unlink( 경로 ,  function(err) => {
 ```
 
 현재는 글 삭제시 이미지를 삭제하지 않는데, 원한다면 delete 라우트에 추가하면 된다.
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/ed526f27fccbd49aa3947a2ca018fa3827180dd4)에 커밋 로그로 남겨두었습니다.

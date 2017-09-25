@@ -8,10 +8,11 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **Node.js Mongoose를 이용해 특정 데이터를 가져와 Detail 페이지 제작하기(findOne)**
+
+![node](/images/node.png)
 
 Mongoose를 이용해 MongoDB에서 특정 데이터(id를 이용)를 가져와서 상세 페이지를 제작한다.
 
@@ -27,6 +28,9 @@ router.get('/products/detail/:id' , function(req, res){
 });
 ```
 ## STEP 2. detail view 파일 작성
+
+views/admin/productsDetail.ejs
+
 ```html
 <% include ../includes/header.ejs %>
 
@@ -52,3 +56,5 @@ router.get('/products/detail/:id' , function(req, res){
 ```
 
 글 리스트에서 해당 글을 클릭했을 경우, 해당 글의 상세페이지를 보여주는지를 체크한다.
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/6af84540676d2826a795cf2d6c8ff910211d858a)에 커밋 로그로 남겨두었습니다.

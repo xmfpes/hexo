@@ -8,10 +8,11 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **Node.js Mongoose를 이용해 글 내용 수정하기(update)**
+
+![node](/images/node.png)
 
 ## STEP 1. API 작성
 /routes/admin.js 수정하기
@@ -92,3 +93,5 @@ router.get('/products/write', function(req,res){
     res.render( 'admin/form' , { product : "" }); 
 });
 ```
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/7a5f38bbce64f0fdbe63a1680bf9e77eb25bdd9c)에 커밋 로그로 남겨두었습니다.

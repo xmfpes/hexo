@@ -8,10 +8,11 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **Node.js Mongoose ODM 사용**
+
+![node](/images/node.png)
 
 Mongoose는 MongoDB 기반 ODM(Object Data Mapping) Node.js 라이브러리
 
@@ -72,3 +73,6 @@ module.exports = mongoose.model('products', ProductsSchema);
 ```
 
 DB Connection 코드와 DB 모델을 먼저 추가해 주었다. 이후 Template Engine(Ejs, HandleBars, Pug)을 추가하고 View파일을 만든 뒤 DB 테스트를 진행한다.
+
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/cb8104e530c752e4c03d34c8722b3724924bbff0)에 커밋 로그로 남겨두었습니다.

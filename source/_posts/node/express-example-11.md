@@ -9,10 +9,11 @@ tags:
 - Mongoose
 - Ajax
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **댓글 기능 추가하기**
+
+![node](/images/node.png)
 
 ## STEP 1. CommentsModel 작성하기
 ```javascript
@@ -204,3 +205,5 @@ router.get('/products/detail/:id' , function(req, res){
     <%});%>
 </div>
 ```
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/6e05b47449a819d7a2e16800be0f0dee8be7f7e4)에 커밋 로그로 남겨두었습니다.

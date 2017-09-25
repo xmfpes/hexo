@@ -8,10 +8,11 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **Node.js Mongoose를 이용해 MongoDB Data 가져오기**
+
+![node](/images/node.png)
 
 Mongoose를 이용해 MongoDB에서 원하는 값을 가져오는 작업을 한다.
 

@@ -14,6 +14,8 @@ thumbnail: /images/spring.png
 
 ## **Spring Boot Summernote 에디터 연동 및 S3를 이용한 이미지 업로드**
 
+![spring](/images/spring.png)
+
 MySQL / Lombok / thymeleaf / JPA(ORM) / Maven
 
 위의 패키지들을 추가한 프로젝트를 생성하고

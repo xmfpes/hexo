@@ -7,10 +7,11 @@ tags:
 - JQuery
 - Express
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **Node.js Template Engine 추가(ejs)**
+
+![node](/images/node.png)
 
 템플릿 엔진을 추가하고 나서 header나 footer등 전체 페이지에서 공통적으로
 들어가는 부분을 정리한다.
@@ -74,3 +75,5 @@ footer.ejs
 코드 작성 후, 아래의 페이지에서 header와 footer가 정상적으로 추가되었는지, 정상적으로 페이지가 작동하는지 체크한다.
 
 [localhost:3000/admin/products](localhost:3000/admin/products)
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/fa8642a684215a1bfa0704283a30a7b2a98bf9b8)에 커밋 로그로 남겨두었습니다.

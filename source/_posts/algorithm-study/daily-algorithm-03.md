@@ -3,10 +3,11 @@ title: 알고리즘 스터디 - 03(Recursion - 재귀)
 date: 2017-09-23 13:36:19
 tags: Algorithm
 categories: 알고리즘 스터디
-thumbnail: /images/algorithm.png
 ---
 
 ## 매일 하려고 하는 알고리즘 스터디 - Recursion
+
+![algorithm](/images/algorithm.png)
 
 ### Day 3
 ## Recursion(재귀) 함수 예제 - 3

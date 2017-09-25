@@ -8,10 +8,11 @@ tags:
 - Express
 - Mongoose
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **Node.js Mongoose를 이용해 글 삭제하기(remove)**
+
+![node](/images/node.png)
 
 ## STEP 1. API 작성
 /routes/admin.js 수정하기
@@ -36,3 +37,5 @@ a 태그에 삭제와 매핑된 url로 get 요청을 보내도록 수정한다.
 ```
 
 정상적으로 삭제가 되는지 체크한다.
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/10f7c5b08e3912b1a569e0ab9fe7df8b99a247e1)에 커밋 로그로 남겨두었습니다.

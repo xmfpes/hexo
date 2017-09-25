@@ -9,15 +9,18 @@ tags:
 - Mongoose
 - Ajax
 categories: Node.js
-thumbnail: /images/node.png
 ---
 
 ## **댓글 삭제 기능 추가하기**
+
+![node](/images/node.png)
 
 ## STEP 1. 댓글 삭제 버튼 추가하기
 
 삭제 버튼은 ejs에서 forEach로 추가해주는 부분과
 js에서 append 하는 부분 두가지 모두에 추가해야 한다.
+
+/views/admin/productsDetail.ejs
 
 ejs 파일 수정
 
@@ -57,9 +60,10 @@ $.ajax({
 ## STEP 2. 댓글 삭제 기능 구현하기
 라우팅과 js에서 삭제 기능을 구현한다.
 
-js 파일 수정
+js 코드 추가
 
 ```javascript
+<script>
 $(document).on('click' , '.comment_delete' , function(){
     if(confirm('삭제하시겠습니까?')){ //확인창 예 눌렀을 시만 진행
         var $self = $(this);
@@ -77,6 +81,7 @@ $(document).on('click' , '.comment_delete' , function(){
         });
     }
 });
+</script>
 ```
 
 /routes/admin delete 라우팅 추가
@@ -88,3 +93,5 @@ router.post('/products/ajax_comment/delete', function(req, res){
     });
 });
 ```
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/8f87aa90072c71fa12671857ab1190781fc94635)에 커밋 로그로 남겨두었습니다.

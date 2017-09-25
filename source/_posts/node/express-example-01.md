@@ -11,7 +11,7 @@ categories: Node.js
 
 ## **Node.js Express 프레임워크 사용**
 
-![express](/images/node.png)
+![node](/images/node.png)
 
 Express 프레임워크를 이용해서 간단한 웹 페이지를 제작한다.
 
@@ -22,10 +22,16 @@ DB는 MongoDB를 이용하고 ODM(Object Data Mapping)으로 Mongoose를 사용�
 ## STEP 1. Express 패키지 다운로드
 package.json 생성 및 프로젝트 셋팅
 
-npm init 이후 나오는 설정들은 본인 설정에 맞춘다.
 ```bash
    $ npm init
 ```
+
+npm init를 치면, 아래와 같은 설정을 입력하는 내용이 나온다.
+
+![node](/images/npminit.png)
+
+npm init 설정은 본인의 설정에 알아서 맞추고 진행한다.
+
 express 패키지 설치
 ```bash
     $ npm install --save express
@@ -118,3 +124,6 @@ app.listen(port, function(){
 [localhost:3000/admin](localhost:3000/admin)
 
 [localhost:3000/admin/products](localhost:3000/admin/products)
+
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/cee2648d638c24a65865669eaef5f8661ab38fc1)에 커밋 로그로 남겨두었습니다.
