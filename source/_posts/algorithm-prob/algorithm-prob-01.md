@@ -6,4 +6,6 @@ tags:
 
 ## 알고리즘 문제 풀기 - 1
 
+N Queens Problem
+
 ![algorithm](/images/algorithm.png)

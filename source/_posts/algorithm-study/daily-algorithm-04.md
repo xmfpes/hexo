@@ -1,7 +1,9 @@
 ---
 title: 알고리즘 스터디 - 04(Recursion - 재귀를 이용한 미로찾기 알고리즘)
-date: 2017-09-26 13:36:19
-tags: Algorithm
+date: 2017-09-25 13:36:19
+tags: 
+- Algorithm
+- Maze
 categories: 알고리즘 스터디
 ---
 
