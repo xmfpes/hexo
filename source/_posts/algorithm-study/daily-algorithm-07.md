@@ -82,7 +82,7 @@ powerSet(int k){
 글로만 계속 적으니 이해가 잘 안되는데, 아래의 상태공간트리는
 {a,b,c} 경우의 멱집합을 구하는 예이다. include와 exclude가 뒤바뀌어 있다는 점을 참고하고 보자
 
-![powerset](image/powerset.png)
+![powerset](/images/powerset.png)
 
 위는 includes / exclude가 뒤바뀐 상태공간트리
 
