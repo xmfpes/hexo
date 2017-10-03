@@ -1,5 +1,5 @@
 ---
-title: Spring Boot와 Summernote 에디터 연동하기
+title: Spring Boot Summernote와 s3를 이용한 에디터 제작 - 01
 date: 2017-09-23 15:10:03
 tags:
 - Spring Boot
@@ -11,7 +11,9 @@ categories:
 - Spring
 ---
 
-## **Spring Boot Summernote 에디터 연동 및 S3를 이용한 이미지 업로드**
+## **Spring Boot Summernote 에디터에 Amazon s3 연동하기 - 01**
+
+### Summernote 삽입 이미지 s3 업로드 및 tag 형식으로 삽입하기
 
 ## STEP 1. 아마존 access Key Id 및 Secret access key 발급
 
@@ -211,8 +213,7 @@ footer의 내용은 나중에 작성하고, 일단 생성만 해 둔다.
 		<div class="panel panel-default">
 			<div class="panel-heading" th:text="${article.title}"></div>
 			<div class="panel-body">
-				<div th:utext="@{작성일 : {articleDate}(articleDate=${article.regDate})}" style="padding-bottom: 10px">
-				</div>
+				<div th:text="|작성일 : ${article.regDate}|" style="padding-bottom: 10px"></div>
 				<div th:utext="${article.content}"></div>
 			</div>
 		</div>
@@ -327,7 +328,7 @@ $(document).ready(function() {
 	      $.ajax({
 	        data: form_data,
 	        type: "POST",
-	        url: '/file/image',
+	        url: '/file',
 	        cache: false,
 	        contentType: false,
 	        enctype: 'multipart/form-data',
@@ -335,7 +336,6 @@ $(document).ready(function() {
 	        success: function(url) {
 	        		$('#summernote').summernote('insertImage', url);
 		        $('#imageBoard > ul').append('<li><img src="'+ url +'" width="480" height="auto"/></li>');
-
 	        }
 	      });
 	    }
@@ -381,9 +381,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-
 import org.springframework.web.multipart.MultipartFile;
-
 import com.amazonaws.auth.profile.ProfileCredentialsProvider;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3Client;
@@ -396,11 +394,9 @@ import com.amazonaws.services.s3.model.PutObjectRequest;
 import com.amazonaws.services.s3.model.DeleteObjectsRequest.KeyVersion;
 
 public class S3Manager {
-
 	private static final String amazonPath = "https://s3.ap-northeast-2.amazonaws.com/kyubucket/";
 	private static AmazonS3 s3Cliient = new AmazonS3Client(new ProfileCredentialsProvider());
 	private static ObjectMetadata meta;
-
 	public String saveUploadedFiles(MultipartFile file) throws IOException {
 		if (file.isEmpty()) {
 			System.out.println("file not found");
@@ -410,23 +406,18 @@ public class S3Manager {
 		sendFiles(randomFileName, bytes);
 		return amazonPath + randomFileName;
 	}
-
 	public static boolean sendFiles(String name, byte[] file) {
-
 		InputStream is = new ByteArrayInputStream(file);
 		try {
 			s3Cliient.putObject(makeRequest(is, name));
 			return true;
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return false;
 	}
-
 	public static PutObjectRequest makeRequest(InputStream is, String fileName) {
 		ObjectMetadata uploadMetaData = new ObjectMetadata();
-		uploadMetaData.setContentType("image/png/jpg");
 		return new PutObjectRequest("kyubucket", fileName, is, uploadMetaData).withCannedAcl(CannedAccessControlList.PublicRead);
 	}
 }
@@ -443,14 +434,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
-
 import com.kyunam.aws.S3Manager;
 
 @Controller
 @RequestMapping("/file")
 public class FileController {
 
-	@PostMapping("/image")
+	@PostMapping("")
 	public ResponseEntity<?> handleImageUpload(@RequestParam("file") MultipartFile file) {
 		String fileName;
 		try {
@@ -476,4 +466,4 @@ ClassNotFoundException: com.amazonaws.services.s3.AmazonS3Client
 
 다음으로 다룰 내용은, 에디터에서 이미지 업로드를 하는 것 이외에도 따로 파일 업로드를 하는 기능을 추가할 것이다.
 
-오늘 학습에 사용된 코드는 깃허브 [썸머노트 레파지토리](https://github.com/xmfpes/spring-editor/commit/2c8e02a5fa2efbc7dd8ee8eb3f84b1dedc6dc028)에 커밋 로그로 남겨두었습니다.
+오늘 학습에 사용된 코드는 깃허브 [썸머노트 레파지토리](https://github.com/xmfpes/spring-editor-fileupload/commits/master)에 커밋 로그로 남겨두었습니다.
