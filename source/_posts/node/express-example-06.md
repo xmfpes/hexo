@@ -79,3 +79,5 @@ router.get('/products', function(req, res){
 ```
 
 화면에 MongoDB에 저장된 값들이 출력되는것을 확인할 수 있다.
+
+오늘 학습에 사용된 코드는 깃허브 [레파지토리](https://github.com/xmfpes/node-project/commit/0c4b27d2fbbf870f99fe3abdee161cae8442df75)에 커밋 로그로 남겨두었습니다.

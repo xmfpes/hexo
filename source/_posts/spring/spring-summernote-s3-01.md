@@ -13,6 +13,8 @@ categories:
 
 ## **Spring Boot Summernote 에디터에 Amazon s3 연동하기 - 01**
 
+![spring](/images/spring.png)
+
 ### Summernote 삽입 이미지 s3 업로드 및 tag 형식으로 삽입하기
 
 ## STEP 1. 아마존 access Key Id 및 Secret access key 발급
