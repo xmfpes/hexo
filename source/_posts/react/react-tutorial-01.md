@@ -7,7 +7,7 @@ categories : React
 
 ## **리액트 튜토리얼 - 01**
 
-이 포스팅은 https://academy.nomadcoders.co의 강의를 참고하여 만들어졌습니다.
+이 포스팅은 https://academy.nomadcoders.co 강의를 참고하여 만들어졌습니다.
 
 ![react](/images/react/react.jpeg)
 
