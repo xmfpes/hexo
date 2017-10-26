@@ -6,6 +6,7 @@ tags:
 - Jpa
 - thymeleaf
 categories:
+- Java
 - Spring
 thumbnail: /images/spring.png
 ---

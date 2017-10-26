@@ -7,7 +7,9 @@ tags:
 - JQuery
 - Express
 - Mongoose
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 
 ## **Node.js Mongoose를 이용해 MongoDB Data 가져오기**

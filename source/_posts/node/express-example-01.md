@@ -6,7 +6,9 @@ tags:
 - JavaScript
 - JQuery
 - Express
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 
 ## **Node.js Express 프레임워크 사용**

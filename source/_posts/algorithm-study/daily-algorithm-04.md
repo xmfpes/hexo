@@ -4,7 +4,10 @@ date: 2017-09-25 13:36:19
 tags: 
 - Algorithm
 - Maze
-categories: 알고리즘 스터디
+categories: 
+- CS
+- Algorithm
+- Study
 ---
 
 ## 매일 하려고 하는 알고리즘 스터디 - Recursion

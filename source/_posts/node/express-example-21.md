@@ -7,7 +7,9 @@ tags:
 - JQuery
 - Express
 - Socket.io
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 ## **채팅 기능 추가하기 - 01**
 

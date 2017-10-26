@@ -7,7 +7,9 @@ tags:
 - JQuery
 - Express
 - Mongoose
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 
 ## **Node.js Mongoose Virtual attributes 추가하기**

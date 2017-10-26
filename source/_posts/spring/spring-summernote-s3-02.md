@@ -8,6 +8,7 @@ tags:
 - Summernote
 - Amazon S3
 categories:
+- Java
 - Spring
 ---
 

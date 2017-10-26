@@ -6,7 +6,9 @@ tags:
 - JavaScript
 - JQuery
 - Express
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 
 ## **헤더 메뉴 바 추가하기**

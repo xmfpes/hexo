@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 개발 메모 공간
+title: 안녕
 subtitle:
 description:
 author: KyuNam
-language: ko
+language: en
 timezone:
 
 # URL
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: overdose
+theme: hueman
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

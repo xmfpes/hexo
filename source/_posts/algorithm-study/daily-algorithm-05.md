@@ -4,7 +4,10 @@ date: 2017-09-26 10:36:19
 tags: 
 - Algorithm
 - Counting cells in a blob
-categories: 알고리즘 스터디
+categories: 
+- CS
+- Algorithm
+- Study
 ---
 
 ## 매일 하려고 하는 알고리즘 스터디 - Recursion

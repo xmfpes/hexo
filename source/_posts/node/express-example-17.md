@@ -8,7 +8,9 @@ tags:
 - Express
 - Mongoose
 - passport
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 
 ## **로그인 기능 추가하기**

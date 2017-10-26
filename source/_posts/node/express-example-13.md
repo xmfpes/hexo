@@ -8,7 +8,9 @@ tags:
 - Express
 - Mongoose
 - Validation
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 
 ## **Validation 추가하기**

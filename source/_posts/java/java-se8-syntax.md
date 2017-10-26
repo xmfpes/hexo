@@ -6,10 +6,11 @@ tags:
 - Stream
 categories:
 - Java
+- Java
 ---
 ## Java 함수형 프로그래밍
 
-![java](https://www.3pillarglobal.com/wp-content/uploads/2016/03/java8_600x600-300x300.png)
+![](/images/java/java.png)
 
 ### 함수형 프로그래밍
 
@@ -417,18 +418,15 @@ Map<Student.Sex, List<Student>> mapBySex = totalList.stream()
 //성별로 평균 점수 계산하는 Map 얻기
 Map<Student.Sex, Double> mapBySex = totalList.stream()
 .collect(
-    Collectors.groupingBy(
-        Student::getSex, 
-        Collectors.averagingDouble(Student :: getScore)
-        )
-    );
+Collectors.groupingBy(
+  Student::getSex, Collectors.averagingDouble(Student :: getScore)));
 System.out.println("남학생 평균 점수 : " + mapBySex.get(Student.Sex.MALE));
 
 //성별을 쉼표로 구분한 이름을 저장하는 Map 얻기
 Map<Student.Sex, String> mapByName = totalList.stream()
 .collect(
-    Collectors.groupingBy(Student::getSex, Collectors.mapping(Student::getName, Collectors.joining(",")))
-    );
+Collectors.groupingBy(Student::getSex,
+Collectors.mapping(Student::getName, Collectors.joining(","))));
 System.out.println("남학생 전체 이름 : " + mapByName.get(Student.Sex.MALE));
 ```
 

@@ -9,7 +9,9 @@ tags:
 - Mongoose
 - passport
 - facebook
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 
 ## **페이스북 로그인 기능 추가하기**

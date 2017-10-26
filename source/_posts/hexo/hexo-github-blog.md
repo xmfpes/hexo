@@ -6,7 +6,9 @@ tags:
 - Blog
 - GitHub
 - Node.js
-categories: Hexo
+categories:
+- 기타
+- Hexo
 thumbnail: /images/hexo.png
 ---
 

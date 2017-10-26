@@ -7,7 +7,9 @@ tags:
 - JQuery
 - Express
 - Mongoose
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 
 ## **회원가입 기능 추가하기**

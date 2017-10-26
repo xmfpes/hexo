@@ -4,7 +4,10 @@ date: 2017-10-04 17:44:16
 tags: 
 - Algorithm
 - Quick Sort
-categories: 알고리즘 스터디
+categories: 
+- CS
+- Algorithm
+- Study
 ---
 
 ## 매일 하려고 하는 알고리즘 스터디 - Sort

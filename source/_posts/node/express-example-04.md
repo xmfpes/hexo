@@ -6,7 +6,9 @@ tags:
 - JavaScript
 - JQuery
 - Express
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 
 ## **Node.js Template Engine 추가(ejs)**

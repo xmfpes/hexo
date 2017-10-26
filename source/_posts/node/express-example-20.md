@@ -6,7 +6,9 @@ tags:
 - JavaScript
 - JQuery
 - Express
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 
 ## **Pinterest UI 적용 / 로그인 미들웨어 생성**

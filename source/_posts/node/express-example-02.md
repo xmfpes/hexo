@@ -7,7 +7,9 @@ tags:
 - JQuery
 - Express
 - Mongoose
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 
 ## **Node.js Mongoose ODM 사용**

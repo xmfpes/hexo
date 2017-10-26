@@ -9,7 +9,9 @@ tags:
 - Mongoose
 - Csrf
 - Csurf
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 ## **CSRF 방어 적용하기**
 

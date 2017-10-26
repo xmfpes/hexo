@@ -2,7 +2,9 @@
 title: 알고리즘 스터디 - 01(Recursion - 재귀)
 date: 2017-09-21 22:01:08
 tags: Algorithm
-categories: 알고리즘 스터디
+categories: 
+- Algorithm
+- Study
 ---
 
 ## 매일 하려고 하는 알고리즘 스터디 - Recursion

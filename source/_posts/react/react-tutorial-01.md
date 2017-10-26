@@ -2,7 +2,9 @@
 title: 리액트 튜토리얼 - 01
 date: 2017-10-02 16:32:52
 tags: React
-categories : React
+categories : 
+- JavaScript
+- React
 ---
 
 ## **리액트 튜토리얼 - 01**

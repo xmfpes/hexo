@@ -8,7 +8,9 @@ tags:
 - Express
 - Mongoose
 - Ajax
-categories: Node.js
+categories: 
+- JavaScript
+- Node.js
 ---
 
 ## **댓글 기능 추가하기**
