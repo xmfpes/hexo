@@ -32,7 +32,7 @@ Aws Lambda의 리턴 값을 이용해 Slack Bot의 Slash Command를 만들어 �
 
 Aws Console에서 > Functions -> Create Function으로 람다 함수를 생성한다.
 
-![](../../images/aws/lambda.png)
+![](/images/aws/lambda.png)
 
 위의 설정을 채우고 Create Function을 한 후에 Function Code를 작성한다.
 
@@ -60,17 +60,17 @@ Java Code는 웹에서 코드로 작성할 수 없고, Eclipse의 Aws Toolkit의
 
 Lambda 함수는 기본적으로 이벤트에 반응한다. 여기서 말하는 이벤트는 아마존 웹서비스에서 발생하는 어떤 것이다(예를 들면 S3에 어떤 파일을 추가하는 것과 같은 이벤트). 그렇지만 우리에게 필요한 것은 웹 URL이다. AWS Lambda를 웹 호출을 통해 실행시키려면 또다른 아마존 웹서비스 중 하나인 [Amazon API Gateway](https://aws.amazon.com/ko/api-gateway/)를 연결해야 한다.
 
-![](../../images/aws/api.png)
+![](/images/aws/api.png)
 
 생성 후에 Action -> Create Resource
 
-![](../../images/aws/resource.png)
+![](/images/aws/resource.png)
 
 생성 후에 Action -> Create Method를 통해 Post나 Get 메소드를 생성하자.
 
 Slack은 Post로 구현해야 하므로 Post 메소드를 생성하자.
 
-![](../../images/aws/method.png)
+![](/images/aws/method.png)
 
 여기까지 하면 API와 람다 함수 간의 연결 작업은 완료되지만, 한 가지 남은 일이 있다. Slack이 API를 통해 보낸 값을 람다 함수가 제대로 받아서 처리하게 하려면 약간의 데이터 변환이 필요하다. Slack은 API를 호출할 때 HTML Form 형식으로 데이터를 전달하지만 API Gateway를 통해 람다함수로 전해지는 데이터는 기본적으로 JSON 형식이기 때문에 Slack으로부터 받은 POST 데이터를 Lambda 함수가 처리할 수 있도록 변환하는 작업을 해 줘야 한다. 
 
@@ -88,7 +88,7 @@ Slack은 Post로 구현해야 하므로 Post 메소드를 생성하자.
 
 **Add features and functionality -> Slash Commands -> Create New Command**
 
-![](../../images/aws/slackapi.png)
+![](/images/aws/slackapi.png)
 
 
 

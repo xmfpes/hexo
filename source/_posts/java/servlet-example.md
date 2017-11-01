@@ -11,7 +11,7 @@ categories:
 
 ## Servlet 예제
 
-![](../../images/java/java.png)
+![](/images/java/java.png)
 
 - ### Servlet을 이용한 개인정보 수정 기능 구현
 

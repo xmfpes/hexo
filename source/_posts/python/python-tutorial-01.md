@@ -4,6 +4,7 @@ date: 2017-09-30 17:38:57
 tags:
 - Python
 categories:
+- 기타
 - Python
 ---
 

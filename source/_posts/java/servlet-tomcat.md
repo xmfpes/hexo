@@ -9,6 +9,7 @@ categories:
 - Servlet
 ---
 
+![java](/images/java/java.png)
 
 ## Servlet이란?
 
@@ -73,10 +74,6 @@ acceptCount - Maximum queue length. 기본 값은 100
 
 
 ## Servlet과 Tomcat으로 웹 서버 구축해보기
-
-![](../../images/java/java.png)
-
-
 
 ### Embedded 톰캣 설치
 

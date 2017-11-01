@@ -146,6 +146,6 @@ public class MyServletFilter implements Filter {
 
 ServletFilter는 아래와 같은 구조를 가지고 있다.
 
-![servlet-filter](../../images/java/servlet-filter.JPG)
+![servlet-filter](/images/java/servlet-filter.JPG)
 
 요청을 DispatcherServlet에서 가져가기 전에 Filter를 거치게 됩니다. 이 내용은 아직 애매한 부분이 있어 추후 정리
