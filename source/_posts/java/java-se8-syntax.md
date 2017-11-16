@@ -6,7 +6,7 @@ tags:
 - Stream
 categories:
 - Java
-- Java
+- Functional
 ---
 ## Java 함수형 프로그래밍
 
