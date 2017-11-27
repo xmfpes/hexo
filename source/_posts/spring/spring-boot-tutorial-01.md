@@ -8,7 +8,6 @@ tags:
 categories:
 - Java
 - Spring
-thumbnail: /images/spring.png
 ---
 
 ## **Spring Boot 프로젝트 초기 설정하기**
