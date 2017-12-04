@@ -100,6 +100,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 
 
+일단 간단히, `@EnableOAuth2Sso` 는 자동으로 하나의 소셜 로그인 설정을 지원하지만, 여러개의 필터를 이용해 소셜 로그인을 붙일 경우 `EnableOAuth2Client`를 사용해서 진행하면 된다.
+
+
+
 - #### EnableOAuth2Client 어노테이션 삽입
 
 ```Java
