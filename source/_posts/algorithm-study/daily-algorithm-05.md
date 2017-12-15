@@ -22,7 +22,7 @@ categories:
 blob이란 서로 연결된 image pixel들의 집합을 각각의 blob이라고 한다.
 
 
-![blob](img/blob.png)
+![blob](/images/algorithm/blob.png)
 
 위의 이미지에서, 파란 이미지가 image pixel이며
 blob은 상하좌우 및 대각방향으로 이어진 image pixel의 집합이며 

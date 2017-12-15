@@ -1,5 +1,5 @@
 ---
-title: TIL(11/30)
+title: TIL-32
 date: 2017-11-30 23:10:03
 tags:
 - TIL

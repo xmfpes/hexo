@@ -1,5 +1,5 @@
 ---
-title: TIL(10/16)
+title: TIL-1
 date: 2017-10-16 15:10:03
 tags:
 - TIL

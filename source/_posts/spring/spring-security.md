@@ -253,7 +253,7 @@ signUp.html
 
 각각 Member의 파라미터에 해당하는 값을 매칭하고,  thymeleaf를 사용한 csrf 토큰 관련 설정을 추가해주면 된다. 이후 Get으로 signUp페이지에 연결하고 회원가입을 진행하면 정상적으로 회원가입이 될 거다.
 
-![](/Users/kyunam/Documents/hexo/source/images/spring/security-join.png)
+![](/images/spring/security-join.png)
 
 정상적으로 구현했다면, 위와같이 암호화된 비밀번호가 저장된것을 확인할 수 있다.
 
